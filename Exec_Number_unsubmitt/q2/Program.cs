@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Q1
+namespace q2
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			//判斷某數是不是質數
-			int AA = 123;
+			//找出數值區間內的全部質數
+
 
 
 
