@@ -15,15 +15,14 @@ namespace 註冊新會員
         }
 
 
-        static void registormethod()
-
+        public void registormethod(string name, string account, string password, string cofirmpassword,string email)
         { 
-        
-        
-        
-        
-        
+                       
         }
+
+        public void Forgetpassword(string name, string email) { }
+
+        public void Authenticate(string account, string password) { }
         
     }
 }
