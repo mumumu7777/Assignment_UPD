@@ -26,7 +26,7 @@ namespace 宣告member類別
            member mem = new member();
             mem.Authenticate("keee3571632","hhh123456");
                 mem.Forgetpassword("keee3571632555", "hhh123456");
-                mem.registormethod();
+                mem.registormethod("ammy","keee3571632","a123456","a123456","kkkkk@gmail.com");
         }
 
         class Telephone
