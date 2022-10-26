@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CDF9BA82-667C-4FBC-9AA7-2AF5AFCF5A54}</ProjectGuid>
+    <ProjectGuid>{B9E3C70A-4207-4A44-AC56-0888183F2F6A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>exec2_textbox</RootNamespace>
-    <AssemblyName>exec2_textbox</AssemblyName>
+    <RootNamespace>exec2_meassage</RootNamespace>
+    <AssemblyName>exec2 meassage</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

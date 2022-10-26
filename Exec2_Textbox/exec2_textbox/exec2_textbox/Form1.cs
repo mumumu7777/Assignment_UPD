@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace exec2_textbox
 {
@@ -16,5 +17,23 @@ namespace exec2_textbox
 		{
 			InitializeComponent();
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			int input = Convert.ToInt32(textBox1.Text);
+			
+			string mess = "請重新輸入1~99數值";
+			if (input >= 1 && input <= 99)
+			{
+				MessageBox.Show("數值在一至九九內");
+			}
+
+			else { MessageBox.Show(mess,"錯誤", MessageBoxButtons.YesNo, MessageBoxIcon.Error); }
+			
+
+
+		}
+
+		
 	}
 }
