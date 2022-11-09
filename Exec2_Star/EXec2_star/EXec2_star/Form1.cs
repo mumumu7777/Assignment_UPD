@@ -39,6 +39,7 @@ namespace EXec2_star
 			string stars = Showstars(inputint.Value)+Showeqstars(inputint.Value)+Showrightstars(inputint.Value);
 			
 			starBox.Text = stars;
+			
 		}
 
 
